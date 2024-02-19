@@ -1,0 +1,73 @@
+header, section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+header #title-text {
+    font-family: "Kode Mono", monospace;
+    text-transform: uppercase;
+    font-size: 72px;
+    text-align: center;
+}
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+#next {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 40px;
+    margin: 1em 2em;
+    color: black;
+    transition: color 1s ease;
+}
+#next:hover{
+    transition: color 1s ease;
+    color: #676767;
+}
+#yes-choice, #no-choice {
+    display: none;
+    border: none;
+    padding: 1em 3em;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    font-weight: 800;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 1em;
+    text-transform: uppercase;
+    transition: background-color 1s ease;
+}
+#yes-choice:hover, #no-choice:hover {
+    transition: background-color 1s ease;
+    background-color: #c4c4c4;
+}
+#buttons #start-button {
+    font-family: Montserrat;
+    font-size: 25px;
+    padding: 1em 3em;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 1s ease;
+}
+#buttons #start-button a {
+    text-decoration: none;
+    color: black;
+    font-weight: 1000;
+    text-transform: uppercase;
+}
+#buttons button#start-button:hover {
+    transition: background-color 1s ease;
+    background-color: #c4c4c4;
+}
+#texts {
+    display: flex;
+    justify-content: center;
+    font-family: Montserrat;
+    font-size: 35px;
+    width: 70%;
+    text-align: center;
+}
